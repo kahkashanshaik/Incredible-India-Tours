@@ -65,7 +65,7 @@ This project’s backend, built using Express.js, handles server-side functional
 
 ## Screenshots
 
-<img src="https://apitest.amlc.in/touristic/uploads/readme_images/ec081154-3d18-4a39-a1c8-d34f9f60ac82.png" width="30%"></img>
+<img src="https://apitest.amlc.in/touristic/uploads/readme_images/image-1.png" width="30%"></img>
 <img src="https://apitest.amlc.in/touristic/uploads/readme_images/image-2.png" width="30%"></img> 
 <img src="https://apitest.amlc.in/touristic/uploads/readme_images/246fb8b7-9d2f-42fd-a20e-e4a903e0f1df.png" width="30%"></img> 
 <img src="https://apitest.amlc.in/touristic/uploads/readme_images/f0d4fb2c-3b95-4ad7-887e-6b933f7c6bc9.png" width="30%"></img> 
