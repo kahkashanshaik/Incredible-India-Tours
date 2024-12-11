@@ -19,7 +19,7 @@ const HeroFilters = () => {
                 <div className="grid grid-cols-7 gap-2 lg:gap-8 lg:px-3">
                     <div className="col-span-7 lg:col-span-2">
                         <h3 className="font-bold">Package</h3>
-                        <select className="form-select-sm" placeholder="" value={category} onChange={(e) => setCategory(e.target.value)}>
+                        <select className="form-select-sm form-select" placeholder="" value={category} onChange={(e) => setCategory(e.target.value)}>
                             <option value="">What is your package type</option>
                             {categories &&
                                 categories.map((category) => {
@@ -33,7 +33,7 @@ const HeroFilters = () => {
                     </div>
                     <div className="col-span-7 lg:col-span-2">
                         <h3 className="font-bold">Day's</h3>
-                        <select className="form-select-sm" value={days} onChange={(e) => setDays(e.target.value)}>
+                        <select className="form-select-sm form-select" value={days} onChange={(e) => setDays(e.target.value)}>
                             <option value="">How many day's</option>
                             <option value="1">1 Day</option>
                             <option value="2">2 Day</option>
