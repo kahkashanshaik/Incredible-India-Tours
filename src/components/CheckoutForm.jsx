@@ -37,7 +37,7 @@ const CheckoutForm = ({ amount, package_id, package_slug, price_type }) => {
             elements,
             clientSecret: clientSecret,
             confirmParams: {
-                return_url: `http://localhost:5173/complete/${res.order_id}`,
+                return_url: `${import.meta.env.VITE_APP_URL}/complete/${res.order_id}`,
             },
         });
         if (error) {
